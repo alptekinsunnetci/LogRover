@@ -11,7 +11,7 @@ LogRover'ı kullanmak için aşağıdaki adımları izleyebilirsiniz:
 2. `LogRover.ps1` dosyasını çalıştırmak için şu komutu kullanın:
 
    ```powershell
-   .\LogRover.ps1   ```
+   .\LogRover.ps1
 
 ## Ardışık olarak temizlemek istediğiniz dosya yollarını ekleyin:
 
