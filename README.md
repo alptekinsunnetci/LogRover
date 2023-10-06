@@ -13,7 +13,7 @@ LogRover'ı kullanmak için aşağıdaki adımları izleyebilirsiniz:
    ```powershell
    .\LogRover.ps1
 
-## Ardışık olarak temizlemek istediğiniz dosya yollarını ekleyin:
+3. Ardışık olarak temizlemek istediğiniz dosya yollarını ekleyin:
 
 ```
 $Paths = @(
@@ -24,6 +24,6 @@ $Paths = @(
 )
    ```
 
-## İstediğiniz eski dosya yaşını ayarlayın. Örneğin, 7 gün önceki dosyaları silmek için aşağıdaki satırı düzenleyin:
+4. İstediğiniz eski dosya yaşını ayarlayın. Örneğin, 7 gün önceki dosyaları silmek için aşağıdaki satırı düzenleyin:
 
    ```$Older = 7   ```
