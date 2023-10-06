@@ -21,9 +21,9 @@ LogRover'ı kullanmak için aşağıdaki adımları izleyebilirsiniz:
     "E:\website\demo.com\logs",
     "E:\website\abc.com\logs",
     "E:\website\acme.com\logs"
-)```
+)`
 
 
 ## İstediğiniz eski dosya yaşını ayarlayın. Örneğin, 7 gün önceki dosyaları silmek için aşağıdaki satırı düzenleyin:
 
-```$Older = 7```
+```$Older = 7`
