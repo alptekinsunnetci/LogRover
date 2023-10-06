@@ -15,7 +15,8 @@ LogRover'ı kullanmak için aşağıdaki adımları izleyebilirsiniz:
 
 ## Ardışık olarak temizlemek istediğiniz dosya yollarını ekleyin:
 
-   ```$Paths = @(
+```
+$Paths = @(
 "E:\website\test.com\logs",
     "E:\website\demo.com\logs",
     "E:\website\abc.com\logs",
