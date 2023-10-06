@@ -11,19 +11,19 @@ LogRover'ı kullanmak için aşağıdaki adımları izleyebilirsiniz:
 2. `LogRover.ps1` dosyasını çalıştırmak için şu komutu kullanın:
 
    ```powershell
-   .\LogRover.ps1```
+   .\LogRover.ps1
 
 
 ## Ardışık olarak temizlemek istediğiniz dosya yollarını ekleyin:
 
-```$Paths = @(
-    "E:\website\test.com\logs",
-    "E:\website\demo.com\logs",
-    "E:\website\abc.com\logs",
-    "E:\website\acme.com\logs"
-)`
+`$Paths = @(
+'"E:\website\test.com\logs",
+'    "E:\website\demo.com\logs",
+'    "E:\website\abc.com\logs",
+'    "E:\website\acme.com\logs"
+')
 
 
 ## İstediğiniz eski dosya yaşını ayarlayın. Örneğin, 7 gün önceki dosyaları silmek için aşağıdaki satırı düzenleyin:
 
-```$Older = 7`
+'$Older = 7
