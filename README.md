@@ -14,10 +14,9 @@ LogRover'ı kullanmak için aşağıdaki adımları izleyebilirsiniz:
    .\LogRover.ps1
 
 
-
 ## Ardışık olarak temizlemek istediğiniz dosya yollarını ekleyin:
 
-$Paths = @(
+```$Paths = @(
     "E:\website\test.com\logs",
     "E:\website\demo.com\logs",
     "E:\website\abc.com\logs",
@@ -27,4 +26,4 @@ $Paths = @(
 
 ## İstediğiniz eski dosya yaşını ayarlayın. Örneğin, 7 gün önceki dosyaları silmek için aşağıdaki satırı düzenleyin:
 
-$Older = 7
+```$Older = 7
