@@ -19,12 +19,12 @@ $Paths = @(
 )
    ```
 
-3. `LogRover.ps1` dosyasını çalıştırmak için şu komutu kullanın:
+3. İstediğiniz eski dosya yaşını ayarlayın. Örneğin, 7 gün önceki dosyaları silmek için aşağıdaki satırı düzenleyin:
+
+   ```$Older = 7   ```
+
+
+4. `LogRover.ps1` dosyasını çalıştırmak için şu komutu kullanın:
 
    ```powershell
    .\LogRover.ps1
-
-
-4. İstediğiniz eski dosya yaşını ayarlayın. Örneğin, 7 gün önceki dosyaları silmek için aşağıdaki satırı düzenleyin:
-
-   ```$Older = 7   ```
