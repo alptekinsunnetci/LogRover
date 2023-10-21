@@ -24,6 +24,7 @@ $Paths = @(
    ```$Older = 7   ```
 
 
+
 4. `LogRover.ps1` dosyasını çalıştırmak için şu komutu kullanın:
 
    ```powershell
