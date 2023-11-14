@@ -12,7 +12,7 @@ LogRover'ı kullanmak için aşağıdaki adımları izleyebilirsiniz:
 
 ```
 $Paths = @(
-"E:\website\test.com\logs",
+    "E:\website\test.com\logs",
     "E:\website\demo.com\logs",
     "E:\website\abc.com\logs",
     "E:\website\acme.com\logs"
